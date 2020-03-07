@@ -11,3 +11,5 @@ Now I am working on the development branch on my web project !!
 adding somemore text inthe git repo through the develop2 branch and 
 wish to learn more about the git branch merging in the part of the day
 
+changes made with the develop branch in my repository
+
