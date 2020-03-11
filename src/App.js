@@ -1,15 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Navbar from "./components/Navbar";
+import todoList from "./todoList";
+{
+  /*import Navbar from "./components/Navbar";
 import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer";*/
+}
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <MainContent />
-      <Footer />
+      <todoList />
     </div>
   );
 }
