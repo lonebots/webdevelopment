@@ -1,17 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import todoList from "./todoList";
-{
-  /*import Navbar from "./components/Navbar";
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";*/
-}
+//import Joke from "./joke";
+import todoData from "./components/tododata";
+import Listings from "./components/Listing";
+export default App => {
+  const todoItems = todoData.map(item => (
+    <Listings key={item.id} item={item} />
+  ));
 
-function App() {
-  return (
-    <div>
-      <todoList />
-    </div>
-  );
-}
-export default App;
+  return <div className="content-view">{todoItems}</div>;
+};
