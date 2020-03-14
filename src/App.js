@@ -3,9 +3,7 @@ import React from "react";
 import todoData from "./components/tododata";
 import Listings from "./components/Listing";
 export default App => {
-  const todoItems = todoData.map(item => (
-    <Listings key={item.id} item={item} />
-  ));
+  const todoItem = todoData.map(item => <Listings key={item.id} item={item} />);
 
-  return <div className="content-view">{todoItems}</div>;
+  return <div className="content-view">{todoItem}</div>;
 };
