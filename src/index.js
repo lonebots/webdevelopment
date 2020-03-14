@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Maping from "./Map";
+import methstate from "./statemethod";
 
-ReactDOM.render(<Maping />, document.getElementById("root"));
+ReactDOM.render(<methstate />, document.getElementById("root"));
